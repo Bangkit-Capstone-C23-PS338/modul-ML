@@ -1,0 +1,73 @@
+Influencer Model:
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_8 (Dense)             (None, 512)               12288     
+                                                                 
+ dropout_4 (Dropout)         (None, 512)               0         
+                                                                 
+ dense_9 (Dense)             (None, 128)               65664     
+                                                                 
+ dropout_5 (Dropout)         (None, 128)               0         
+                                                                 
+ dense_10 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_11 (Dense)            (None, 64)                4160      
+                                                                 
+=================================================================
+Total params: 90,368
+Trainable params: 90,368
+Non-trainable params: 0
+_________________________________________________________________
+
+Owner Model:
+Model: "sequential_3"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_12 (Dense)            (None, 512)               11776     
+                                                                 
+ dropout_6 (Dropout)         (None, 512)               0         
+                                                                 
+ dense_13 (Dense)            (None, 256)               131328    
+                                                                 
+ dropout_7 (Dropout)         (None, 256)               0         
+                                                                 
+ dense_14 (Dense)            (None, 128)               32896     
+                                                                 
+ dense_15 (Dense)            (None, 64)                8256      
+                                                                 
+=================================================================
+Total params: 184,256
+Trainable params: 184,256
+Non-trainable params: 0
+_________________________________________________________________
+
+Full Model:
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ inf_feature (InputLayer)       [(None, 23)]         0           []                               
+                                                                                                  
+ own_feature (InputLayer)       [(None, 22)]         0           []                               
+                                                                                                  
+ sequential (Sequential)        (None, 64)           90368       ['inf_feature[0][0]']            
+                                                                                                  
+ sequential_1 (Sequential)      (None, 64)           184256      ['own_feature[0][0]']            
+                                                                                                  
+ tf.math.l2_normalize (TFOpLamb  (None, 64)          0           ['sequential[0][0]']             
+ da)                                                                                              
+                                                                                                  
+ tf.math.l2_normalize_1 (TFOpLa  (None, 64)          0           ['sequential_1[0][0]']           
+ mbda)                                                                                            
+                                                                                                  
+ dot (Dot)                      (None, 1)            0           ['tf.math.l2_normalize[0][0]',   
+                                                                  'tf.math.l2_normalize_1[0][0]'] 
+                                                                                                  
+==================================================================================================
+Total params: 274,624
+Trainable params: 274,624
+Non-trainable params: 0
+__________________________________________________________________________________________________
