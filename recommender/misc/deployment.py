@@ -226,15 +226,15 @@ def get_influencer_recommender_profile(inf_id):
     # Get price categories
     for product in influencer['product']:
         if (product['price'] > 20_000_000):
-            inf_profile.loc[inf_id]['price_HIGH'] = 1
+            inf_profile.loc[inf_id]['pricing_HIGH'] = 1
         elif (product['price'] > 10_000_000):
-            inf_profile.loc[inf_id]['price_ABOVE_AVG'] = 1
+            inf_profile.loc[inf_id]['pricing_ABOVE_AVG'] = 1
         elif (product['price'] > 5_000_000):
-            inf_profile.loc[inf_id]['price_AVG'] = 1
+            inf_profile.loc[inf_id]['pricing_AVG'] = 1
         elif (product['price'] > 1_000_000):
-            inf_profile.loc[inf_id]['price_BELOW_AVG'] = 1
+            inf_profile.loc[inf_id]['pricing_BELOW_AVG'] = 1
         else:
-            inf_profile.loc[inf_id]['price_LOW'] = 1
+            inf_profile.loc[inf_id]['pricing_LOW'] = 1
 
     inf_profile['avg_rating'] = get_average_rating(inf_id)
 
