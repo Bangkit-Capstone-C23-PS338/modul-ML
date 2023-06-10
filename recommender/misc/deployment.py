@@ -277,9 +277,9 @@ def get_influencer_scores(own_id):
 
     MODEL = "recommender-smote-try-simple-I"
 
-    export_path = f"recommender/log/model/savedmodel/{MODEL}/"
-    model = tf.saved_model.load(export_path)
-    infer = model.signatures["serving_default"]
+    export_path = f"recommender/log/model/keras/{MODEL}/"
+    model = tf.keras.models.load_model(export_path)
+    # infer = model.signatures["serving_default"]
 
     inf_profile = get_all_influencer_recommender_profile()
     user_profile = get_user_recommender_profile(own_id)
@@ -291,8 +291,8 @@ def get_influencer_scores(own_id):
     
     score = []
     for i, data in enumerate(inputs):
-        score.append(infer(**data))
-        print(f"UserID: {own_id}, Inf ID: {id[i].values[0]} ->", infer(**data)['dot_2'].numpy()[0, 0])
+        score.append(model(data))
+        print(f"UserID: {own_id}, Inf ID: {id[i].values[0]} ->", model(data).numpy()[0][0])
 
 
 get_influencer_scores(3)
