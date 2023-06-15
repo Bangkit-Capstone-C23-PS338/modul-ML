@@ -1,0 +1,19 @@
+{
+  "reviews": [
+    {
+      "rating": 4,
+      "comment": "wah tole jing",
+      "order_id": "028df25c-2d9b-4ad9-9675-9b343645f45c",
+      "company_name": "selulercapgo",
+      "time_reviewed": "2023-06-09T19:30:11.358464+00:00"
+    },
+    {
+      "rating": 2,
+      "sentiment": 0.00046048188232816756,
+      "comment": "jelek jing",
+      "order_id": "faf23262-62ca-457b-a32c-62ebafe02962",
+      "company_name": "selulercapgo",
+      "time_reviewed": "2023-06-09T22:11:23.570854+00:00"
+    }
+  ]
+}

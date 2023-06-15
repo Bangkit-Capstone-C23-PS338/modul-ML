@@ -1,0 +1,136 @@
+{
+  "influencers": [
+    {
+      "username": "acong69",
+      "photo_profile_url": "https://nextluxury.com/wp-content/uploads/funny-profile-pictures-4.jpg",
+      "ig_username": "acongig",
+      "categories": [
+        "mahasiswa",
+        "perjaka"
+      ],
+      "yt_username": "acongyt",
+      "password": "$2b$12$cU2FI4JaD0krjBhTlU5.UuHPya2Hc75ec5RCRPMqbFF0b/seleWr2",
+      "ig_followers": 100,
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "wah tole jing",
+          "order_id": "028df25c-2d9b-4ad9-9675-9b343645f45c",
+          "company_name": "selulercapgo",
+          "time_reviewed": "2023-06-09T19:30:11.358464+00:00"
+        },
+        {
+          "rating": 2,
+          "sentiment": 0.00046048188232816756,
+          "comment": "jelek jing",
+          "order_id": "faf23262-62ca-457b-a32c-62ebafe02962",
+          "company_name": "selulercapgo",
+          "time_reviewed": "2023-06-09T22:11:23.570854+00:00"
+        }
+      ],
+      "userid": "fb5121b8-fd20-430d-b449-49dd718ede9e",
+      "products": [
+        {
+          "social_media_type": "Instagram",
+          "description": "uakak",
+          "name": "Paket A",
+          "to_do": [
+            "nsksl"
+          ],
+          "product_id": 0,
+          "price": 1902
+        }
+      ],
+      "tt_username": "acongtt",
+      "email": "aconkk@gmail.com",
+      "address": "Jl. In Aja Dulu",
+      "tt_followers": 5000,
+      "yt_followers": 1000
+    },
+    {
+      "tt_followers": 100000,
+      "photo_profile_url": "https://nextluxury.com/wp-content/uploads/funny-profile-pictures-4.jpg",
+      "ig_username": "bensim",
+      "categories": [
+        "Food and Drinks",
+        "Technology",
+        "Travel",
+        "Gaming"
+      ],
+      "yt_username": "bensim",
+      "password": "$2b$12$lzc8sZ60.KywPCE00ChCye/MXmwkEgquSfLq..FVIT/EaHQ3qnQPC",
+      "ig_followers": 100000,
+      "userid": "adfd58d7-380b-4b86-ad75-55380242c3ea",
+      "products": [],
+      "tt_username": "bensim",
+      "email": "bensim2@gmail.com",
+      "address": "wkwkwk",
+      "username": "bensim",
+      "yt_followers": 123400
+    },
+    {
+      "tt_followers": 120000,
+      "photo_profile_url": "",
+      "ig_username": "iuu",
+      "categories": [
+        "Beauty and Fashion"
+      ],
+      "yt_username": "iuuu",
+      "password": "$2b$12$/IlYcZ49uWvl0ixQf5buOOv63d/BRK2U1JWnZ.SkyOO4nRZAm1gWu",
+      "ig_followers": 120000,
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "jelek jing",
+          "order_id": "02a6c4eb-9db7-4a55-8f6c-5f9e8db0e034",
+          "company_name": "Burjoni Sirojudin",
+          "time_reviewed": "2023-06-09T15:04:17.978714+00:00"
+        },
+        {
+          "rating": 4,
+          "comment": "jelek jing",
+          "company_name": "Burjoni Sirojudin",
+          "time_reviewed": "2023-06-09T15:08:33.776231+00:00"
+        }
+      ],
+      "userid": "b1779729-547f-403e-ba73-9870ebf80f50",
+      "products": [
+        {
+          "social_media_type": "Youtube",
+          "description": "hskanw",
+          "name": "Paket Y",
+          "to_do": [
+            "bsksk"
+          ],
+          "product_id": 0,
+          "price": 18000
+        },
+        {
+          "social_media_type": "Youtube",
+          "description": "jskamq",
+          "name": "Paket L",
+          "to_do": [
+            "banaka"
+          ],
+          "product_id": 1,
+          "price": 120202
+        },
+        {
+          "social_media_type": "Instagram",
+          "description": "jsksjsb",
+          "name": "Paket A",
+          "to_do": [
+            "bskssls"
+          ],
+          "product_id": 2,
+          "price": 1010
+        }
+      ],
+      "tt_username": "iuu",
+      "email": "iu@gmail.com",
+      "address": "wkwkwkw",
+      "username": "iuuu",
+      "yt_followers": 12000
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+Influencer Model:
+Model: "sequential_12"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_46 (Dense)            (None, 128)               3200      
+                                                                 
+ dropout_24 (Dropout)        (None, 128)               0         
+                                                                 
+ dense_47 (Dense)            (None, 128)               16512     
+                                                                 
+ dense_48 (Dense)            (None, 32)                4128      
+                                                                 
+=================================================================
+Total params: 23,840
+Trainable params: 23,840
+Non-trainable params: 0
+_________________________________________________________________
+
+Owner Model:
+Model: "sequential_13"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_49 (Dense)            (None, 128)               3072      
+                                                                 
+ dropout_25 (Dropout)        (None, 128)               0         
+                                                                 
+ dense_50 (Dense)            (None, 128)               16512     
+                                                                 
+ dropout_26 (Dropout)        (None, 128)               0         
+                                                                 
+ dense_51 (Dense)            (None, 32)                4128      
+                                                                 
+=================================================================
+Total params: 23,712
+Trainable params: 23,712
+Non-trainable params: 0
+_________________________________________________________________
+
+Full Model:
+Model: "model_6"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ inf_feature (InputLayer)       [(None, 24)]         0           []                               
+                                                                                                  
+ own_feature (InputLayer)       [(None, 23)]         0           []                               
+                                                                                                  
+ sequential_12 (Sequential)     (None, 32)           23840       ['inf_feature[0][0]']            
+                                                                                                  
+ sequential_13 (Sequential)     (None, 32)           23712       ['own_feature[0][0]']            
+                                                                                                  
+ tf.math.l2_normalize_12 (TFOpL  (None, 32)          0           ['sequential_12[0][0]']          
+ ambda)                                                                                           
+                                                                                                  
+ tf.math.l2_normalize_13 (TFOpL  (None, 32)          0           ['sequential_13[0][0]']          
+ ambda)                                                                                           
+                                                                                                  
+ dot_6 (Dot)                    (None, 1)            0           ['tf.math.l2_normalize_12[0][0]',
+                                                                  'tf.math.l2_normalize_13[0][0]']
+                                                                                                  
+==================================================================================================
+Total params: 47,552
+Trainable params: 47,552
+Non-trainable params: 0
+__________________________________________________________________________________________________

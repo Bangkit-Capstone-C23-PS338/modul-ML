@@ -1,0 +1,59 @@
+Influencer Model:
+Model: "sequential_14"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_52 (Dense)            (None, 128)               3200      
+                                                                 
+ dense_53 (Dense)            (None, 32)                4128      
+                                                                 
+=================================================================
+Total params: 7,328
+Trainable params: 7,328
+Non-trainable params: 0
+_________________________________________________________________
+
+Owner Model:
+Model: "sequential_15"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_54 (Dense)            (None, 128)               3072      
+                                                                 
+ dropout_27 (Dropout)        (None, 128)               0         
+                                                                 
+ dense_55 (Dense)            (None, 32)                4128      
+                                                                 
+=================================================================
+Total params: 7,200
+Trainable params: 7,200
+Non-trainable params: 0
+_________________________________________________________________
+
+Full Model:
+Model: "model_7"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ inf_feature (InputLayer)       [(None, 24)]         0           []                               
+                                                                                                  
+ own_feature (InputLayer)       [(None, 23)]         0           []                               
+                                                                                                  
+ sequential_14 (Sequential)     (None, 32)           7328        ['inf_feature[0][0]']            
+                                                                                                  
+ sequential_15 (Sequential)     (None, 32)           7200        ['own_feature[0][0]']            
+                                                                                                  
+ tf.math.l2_normalize_14 (TFOpL  (None, 32)          0           ['sequential_14[0][0]']          
+ ambda)                                                                                           
+                                                                                                  
+ tf.math.l2_normalize_15 (TFOpL  (None, 32)          0           ['sequential_15[0][0]']          
+ ambda)                                                                                           
+                                                                                                  
+ dot_7 (Dot)                    (None, 1)            0           ['tf.math.l2_normalize_14[0][0]',
+                                                                  'tf.math.l2_normalize_15[0][0]']
+                                                                                                  
+==================================================================================================
+Total params: 14,528
+Trainable params: 14,528
+Non-trainable params: 0
+__________________________________________________________________________________________________

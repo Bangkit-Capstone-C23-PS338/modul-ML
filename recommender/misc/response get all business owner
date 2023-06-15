@@ -1,0 +1,115 @@
+{
+  "business_owners": [
+    {
+      "password": "$2b$12$mpeZFtoY6Ebvdl3A6hLwKOsMzT.A5kOFWnwJElaPBLbTSG9mk9WUm",
+      "userid": "96d39401-1493-45f4-9817-a6657624f1ac",
+      "email": "sipodang@gmail.com",
+      "categories": [
+        "food",
+        "health"
+      ],
+      "company_name": "Burjoni Sipodang",
+      "username": "burjoni_s"
+    },
+    {
+      "password": "$2b$12$KMXw6J.Oxc3VjO3s8Vobs.yK0C93ng5NUo/.OFAu/ztwKj4tLysma",
+      "userid": "5749a971-3afa-43cb-b317-f94fda8ef3e4",
+      "email": "sirojudin@gmail.com",
+      "categories": [
+        "Food and Drinks",
+        "Entertainment"
+      ],
+      "company_name": "Burjoni Sirojudin",
+      "username": "burjoni_sirojudin"
+    },
+    {
+      "password": "$2b$12$cU7Kn6uu1NpP/TABddjna.pEqd7W61fE05Fvs2dwNjvorfDvqHI5C",
+      "userid": "d0699a28-ed11-4755-a8f1-f703eabce04f",
+      "email": "goto@gmail.com",
+      "categories": [
+        "Food and Drinks",
+        "Sports",
+        "Travel",
+        "Gaming"
+      ],
+      "company_name": "gojek",
+      "username": "goto"
+    },
+    {
+      "password": "$2b$12$CxPdFdkpOqifS5AZWIHc2uiXMk.f5pURtX6miCThomYRz160fiKai",
+      "userid": "0f098746-d29d-4b29-a83b-4e99890862c6",
+      "email": "koma@gmail.com",
+      "categories": [
+        "Health"
+      ],
+      "company_name": "koma",
+      "username": "koma spasi"
+    },
+    {
+      "password": "$2b$12$RoNYKl0ba64XXLHnP0G.3efSbGzUx9vRpG/rnpyi34D113kcsAHdW",
+      "userid": "2d156490-f1c1-4091-91a6-77eb52432613",
+      "email": "kuebunga69@gmail.com",
+      "categories": [
+        "fnb",
+        "umkm"
+      ],
+      "company_name": "kuebunga",
+      "username": "kuebunga69"
+    },
+    {
+      "password": "$2b$12$FuZX6XsS2/IhodaVXccLHOwbikFz0YgWlh0kPe.FuQplniOfMnEUG",
+      "userid": "128ce810-87c8-4942-896e-d194a53e5155",
+      "email": "seluler15@gmail.com",
+      "categories": [
+        "electronic",
+        "hardware"
+      ],
+      "company_name": "selulercapgo",
+      "username": "seluler15"
+    },
+    {
+      "password": "$2b$12$1RM.cd/ZBsKX1/Hg7LP3Pu7kFUB1vqA38Acu8PYApSb5eZBR0gS6.",
+      "userid": "c13f364d-99cd-4bf6-aa9a-e611c1c34eba",
+      "email": "seluler18@gmail.com",
+      "categories": [
+        "electronic",
+        "hardware"
+      ],
+      "company_name": "selulercappue",
+      "username": "seluler18"
+    },
+    {
+      "password": "$2b$12$KGHY4MERezWEhhfSSxpE4OjiW9iU0cxKg4ozZTkFCDQSLMGblCF3W",
+      "userid": "5f3f4fae-5e4c-45ba-ac55-599a03914b1a",
+      "email": "seluler69@gmail.com",
+      "categories": [
+        "electronic",
+        "hardware"
+      ],
+      "company_name": "selulercappue",
+      "username": "seluler69"
+    },
+    {
+      "password": "$2b$12$Pce/G9LxVzKnXicWyTcKOurVTg1EE2dUnSmFOQDLjoLPHkpkPnqgG",
+      "userid": "1466141d-1938-481c-b9dc-9db160c535bf",
+      "email": "stark@gmail.com",
+      "categories": [
+        "Technology"
+      ],
+      "company_name": "stark",
+      "username": "stark"
+    },
+    {
+      "password": "$2b$12$7c1.TXUtqi.AQ7p51WVIHuVZyYge4PnNt32LGhdnlnbZe0hpbFmkS",
+      "userid": "778186d3-189f-4513-aeee-a7df369a41fd",
+      "email": "stark@gmail.com",
+      "categories": [
+        "Technology",
+        "Gaming",
+        "Entertainment"
+      ],
+      "company_name": "stark industry",
+      "username": "stark_industry"
+    }
+  ]
+}
