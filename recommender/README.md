@@ -11,6 +11,7 @@ Using user reviews, we can get user's recommender profile by multiplying review 
 Influencer's features and user's recommender profile becomes the input of 2 Neural Network model (influencer model and user model) which outputs 2 vectors with similar dimension. Using the dot product of both l2-normalized vectors, we get the final recommender score
 
 Loss and MAE:
+
 ![First 200 epoch](images/recommender-smote-try-simple.png)
 
 ![Second 200 epoch](images/recommender-smote-try-simple-I.png)
